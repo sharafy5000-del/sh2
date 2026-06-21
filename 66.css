@@ -1,0 +1,66 @@
+body {
+            background: #0f2027;                   /* لون خلفية أخضر داكن */
+            font-family: 'Poppins', sans-serif;    /* نوع الخط */
+            display: flex;                         /* جعل المحتوى في صف مرن */
+            justify-content: center;               /* توسيط أفقي */
+            align-items: center;                   /* توسيط عمودي */
+            min-height: 100vh;                     /* ارتفاع كامل الشاشة */
+            padding: 40px;                         /* مسافة داخلية */
+            margin-top: 0;                         /* إزالة الهامش العلوي */
+        }
+        /* تنسيق حاوية الباقات */
+        .pricing-container {
+            display: flex;                          /* جعل البطاقات في صف مرن */
+            flex-wrap: wrap;                       /* السماح بالالتفاف */
+            gap: 30px;                             /* مسافة بين البطاقات */
+            justify-content: center;               /* توسيط البطاقات أفقيًا */
+        }
+        /* تنسيق بطاقة السعر */
+        .pricing-card {
+            background-color: white;                /* لون خلفية أبيض */
+            width: 300px;                          /* عرض ثابت */
+            border-radius: 25px;                   /* تدوير الزوايا */
+            padding: 30px 20px;                    /* مسافة داخلية */
+            text-align: center;                    /* توسيط المحتوى */
+        }
+        /* تنسيق البطاقة المميزة */
+        .pricing-card.featured {
+            background: #3a3a3a; color: white; }
+
+        /* تنسيق اسم الخطة */
+        .plan-name {
+            font-size: 24px; font-weight: bold; margin-bottom: 15px;                   
+            text-align: center; }
+
+        /* تنسيق سعر الخطة */
+        .price {
+            font-size: 48px; font-weight: bold;                     
+            margin-bottom: 20px; text-align: center;                    
+        }
+        /* تنسيق رمز العملة داخل السعر */
+        .price span {
+            font-size: 16px;  }
+
+        /* تنسيق قائمة المميزات */
+        .features {
+            list-style: none;                      /* إزالة النقاط من القائمة */
+            margin-bottom: 30px;                   /* هامش سفلي */
+            text-align: center;                    /* توسيط النص */
+        }
+        /* تنسيق عناصر القائمة */
+        .features li {
+            padding: 10px 0;                       /* مسافة داخلية */
+            font-size: 14px;                       /* حجم الخط */
+        }
+        /* تنسيق زر الاختيار */
+        .btn-plan {
+            background-color: #2c3e50; color: white; font-size: 16px;                       
+            font-weight: bold; border: none; padding: 12px 25px;                    
+            border-radius: 40px; cursor: pointer; }
+
+        /* تنسيق زر البطاقة المميزة */
+        .featured .btn-plan {
+            background-color: #f39c12; }
+
+        /* تأثير التمرير على الزر */
+        .btn-plan:hover { opacity: 0.9;}
